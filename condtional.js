@@ -32,6 +32,26 @@ else if (numberOfDays === 6) {
 }
 else if (numberOfDays === 7) {
     console.log('Saturday');
+}
+
+else {
+    console.log('Day out of range');
+};
+
+
+// password
+let password = '12345674554';
+
+if (password.length < 6) {
+    console.log('password is incorret');
+}
+
+else if (password.length > 9) {
+    console.log('password is strong');
+}
+
+else {
+    console.log('welcome')
 };
 
 
