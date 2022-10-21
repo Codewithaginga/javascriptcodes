@@ -11,3 +11,12 @@ person.age = 34;
 let selection = 'name1';
 person[selection] = 'Mary';
 console.log(person);
+
+let kenya = {
+    capital: 'Nairobi',
+    location: 'Africa',
+
+
+}
+kenya.location = 'EAST AFRICA';
+console.log(kenya);
