@@ -1,7 +1,7 @@
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     
     let result = "";
-    result += "The " + myAdjective + " "+ myNoun + " " + myVerb + " " + myAdverb + " to the store";
+    result += "The " + myAdjective + " "+ myNoun + " " + myVerb + " " + myAdverb + " to the store.";
 
     return result;
 }
