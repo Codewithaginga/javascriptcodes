@@ -14,7 +14,7 @@ class Ebook(Book):
         self._format = _format
 
 
-ebo = Ebook('River and the source', 2010, 'Margret ogolla', 'Journal')
+ebo = Ebook('River and the source', 2010, 'Margret ogolla', 'PDF')
 
 print(ebo.name)
 print(ebo.year)

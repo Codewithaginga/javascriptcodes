@@ -38,4 +38,8 @@ console.log(gymDay);
 
 let myList = [['cereal', 3], ['milk', 2], ['banana', 4], ['juice', 2], ['eggs',12]];
 console.log(myList);
+// splice
+let clb = ['arsenal', 'chelsea', 'spurs', 'united'];
+let spl = clb.splice(0, 2 , 'Man city', true);
+console.log(spl);
 

@@ -16,4 +16,4 @@ function madLib(noun, verb, adverb, adjective) {
 }
 
 let mad = madLib('Aginga', 'flying', 'quickly', 'red');
-console.log(mad);
+//console.log(mad);

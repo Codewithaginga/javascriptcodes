@@ -41,3 +41,32 @@ let myStr = 'brian';
 myStr += ' aginga';
 console.log(myStr);
 
+//global scope and function
+
+let myGlobal = 10;
+function fun1() {
+
+    oopGlobal = 5;
+
+}
+
+
+function fun2() {
+    let outPut = "";
+    if (typeof myGlobal != "undefined") {
+        outPut += "myGlobal: " + myGlobal;
+    }
+
+    if (typeof oopGlobal != "undefined") {
+        outPut += "oopGlobal: " + oopGlobal;
+    
+    }
+
+    console.log(outPut);
+}
+
+
+fun1()
+fun2()
+
+

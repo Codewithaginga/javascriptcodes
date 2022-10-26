@@ -6,4 +6,4 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     return result;
 }
 
-console.log(wordBlanks('dog', 'big', 'ran', 'quickly'));
+console.log(wordBlanks('big', 'dog', 'ran', 'quickly'));
